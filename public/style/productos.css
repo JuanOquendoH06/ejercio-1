@@ -1,0 +1,55 @@
+.productos {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.productos div {
+  margin-top: 50px;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  width: 250px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 10px;
+
+}
+
+.card-title {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.card-text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(237, 255, 37);
+  color: rgb(0, 0, 0);
+  padding: 20px 20px;
+  clip-path: circle(30%);
+  margin-left: 0px;
+}
